@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIDAD1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url("FONDO\ DE\ PAGINAS/abstract-dark-purple-background-overlap-layer-on-dark-space-for-background-design-exclusive-wallpaper-design-for-poster-brochure-presentation-website-etc-vector.jpg");
+            background-color: #000;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            color: #fff;
+            background-attachment: fixed; /* Esto fija la imagen de fondo para que no se desplace con el contenido */
+        }
+
+        .info p {
+            /*centrar el texto en P que esta debajo del titulo y subtitulos*/
+            /*div Class="info"*/
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .subtitulos {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+
+        .subtitulo {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid #555;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 200px;   /* Tamaño fijo */  
+            margin: 10px;
+            overflow: hidden; /* Oculta el contenido que se desborda de la caja*/
+            transition: width 0.4s ease-in-out; /* Agrega una transición de ancho */ /*el tiempo en abrirse el texto desbordado*/
+        }
+
+        .box a {
+            /*el estilo de la caja de ir a inicio de pagina*/
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            margin-top: 10px;
+        }
+
+        .box {
+            text-align: center;
+            /*centrar el texto de las cajas*/
+        }
+
+        h2 {
+            text-align: center;
+            /*centrar el texto en H2*/
+        }
+
+        /* Mostrar el contenido completo al pasar el cursor */
+        .subtitulo:hover {
+            width: 250px;
+            /* Ancho expandido */
+        }
+
+        /* Estilo del contenido oculto */
+        .hidden-content {
+            display: none;
+        }
+
+        /* Mostrar el contenido al pasar el cursor */
+        .subtitulo:hover .hidden-content {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>UNIDAD I</h1>
+    <h2>EL ROL DEL TECNICO SUPERIOR EN DESARROLLO DE SOFTWARE</h2>
+    <div class="info">
+        <p>(Poner el cursor arriba de los cuadros para ver su informacion)</p>
+    </div>
+
+    <div class="subtitulos">
+
+        <div class="subtitulo">
+            <h2>ALCANCE DEL PERFIL PROFESIONAL</h2>
+            <div class="hidden-content">
+                <p>El Técnico Superior en Desarrollo de Software estará
+                    capacitado para producir artefactos de software, lo que
+                    comprende su diseño detallado, construcción - reutilizando
+                    elementos existentes o programándolos enteramente- y
+                    verificación unitaria, así como su depuración, optimización y
+                    mantenimiento; desarrollando las actividades descriptas en
+                    el perfil profesional y cumpliendo con los criterios de
+                    realización establecidos para las mismas en el marco de un
+                    equipo de trabajo organizado por proyecto</p>
+            </div>
+        </div>
+        <div class="subtitulo">
+            <h2>FUNCIONES QUE EJERCE EL PROFESIONAL</h2>
+            <div class="hidden-content">
+                <p>Modelizar artefactos de software a
+                    partir de especificaciones, refinándolas
+                    en caso necesario, para determinar el
+                    diseño detallado y las características
+                    de una solución que las satisfaga en el
+                    contexto de la arquitectura del
+                    sistema de software del cual van a
+                    formar parte.</p>
+            </div>
+        </div>
+        <div class="subtitulo">
+            <h2>AREA OCUPACIONAL</h2>
+            <div class="hidden-content">
+                <p> Empresas que realizan desarrollo de software por encargo de organizaciones locales o
+                    extranjeras, que proveen software junto con otros servicios de
+                    asesoramiento y consultoría, y, en menor número, que desarrollan sus
+                    propios productos de software para vender en el país o en el exterior.
+                    También en organizaciones dedicadas a otras actividades, pero que
+                    producen el software que necesitan para desarrollar sus propias
+                    actividades o que integran en productos que venden.</p>
+            </div>
+        </div>
+        <div class="subtitulo">
+            <h2>HABILITACIONES PROFESIONALES</h2>
+            <div class="hidden-content">
+                <p>Si bien las actividades de este técnico superior no están orientadas a un
+                    tipo de software en particular, conviene tener en cuenta que el software
+                    es utilizado crecientemente en sistemas que afectan a la seguridad
+                    pública. Estos sistemas, denominados críticos para la seguridad, son lo
+                    que, en un sentido general, involucran riesgos que conllevan la
+                    posibilidad de pérdidas inaceptables (daños para la salud o aún la
+                    vida humana, daños a la propiedad, contaminación ambiental,
+                    conflictos sociales, grandes pérdidas monetarias).</p>
+            </div>
+        </div>
+        <div class="subtitulo">
+            <h2>QUEDA EXCLUIDO EL SOFTWARE DESTINADO A</h2>
+            <div class="hidden-content">
+                <p>habilitación el software
+                    correspondiente a sistemas críticos para la seguridad, como es
+                    el caso de los que involucren el procesamiento de información
+                    que conlleve riesgos efectivos para terceros.</p>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <a href="pagina.html">Ir a la página principal</a>
+    </div>
+</body>
+
+</html>

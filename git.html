@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Sentencias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('/FONDO\ DE\ PAGINAS/git6.jpg');
+            background-color: #000;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-top: 20px;
+        }
+
+        .letters {
+            letter-spacing: 100px;  /* Espaciado entre letras */
+            font-weight: 800;
+            font-weight: 900;
+        }
+
+        .letter-G {
+            color: #ff4f4f;
+        }
+
+        .letter-I {
+            color: #2cbe4e;
+        }
+
+        .letter-T {
+            color: blue;
+        }
+
+        .sentencias {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .sentencia {
+            background-color: rgba(255, 255, 255, 0.1);  /* Fondo semi-transparente */
+            border: 1px solid #555;  /* Borde gris oscuro */
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 23%;
+            margin: 10px;
+            color: #fff;
+        }
+
+        .box a {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="letters"><span class="letter-G">G</span><span class="letter-I">I</span><span class="letter-T">T</span>
+    </h1>
+    <h2>LOS COMANDOS MÁS UTILIZADOS</h2>
+    <div class="sentencias">
+        <div class="sentencia">
+            <h2>GIT STATUS</h2>
+            <p>Muestra el estado del directorio de trabajo y del área del entorno de ensayo. Permite ver los cambios que
+                se han preparado, los que no y los archivos en los que Git no va a realizar el seguimiento.</p>
+        </div>
+        <div class="sentencia">
+            <h2>GIT ADD</h2>
+            <p>Añade un cambio del directorio de trabajo en el entorno de ensayo. De este modo, indica a Git que quieres
+                incluir actualizaciones en un archivo concreto en la próxima confirmación.</p>
+        </div>
+        <div class="sentencia">
+            <h2>GIT LOG</h2>
+            <p>Sirve para explorar el historial del repositorio. Este comando se usa cuando necesitas buscar una versión
+                concreta de un proyecto o saber los cambios que se introducirán mediante la fusión en una rama de
+                función.</p>
+        </div>
+        <div class="sentencia">
+            <h2>GIT COMMIT</h2>
+            <p>Captura una instantánea de los cambios preparados en ese momento del proyecto. Las instantáneas
+                confirmadas pueden considerarse como versiones "seguras" de un proyecto: Git no las cambiará nunca a no
+                ser que se lo pidas expresamente.</p>
+        </div>
+    </div>
+    <div class="box">
+        <a href="pagina.html">Ir a la página principal</a>
+    </div>
+</body>
+
+</html>

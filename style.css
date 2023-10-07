@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+*{
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+
+
+/* SECCION INICIO */
+.inicio{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("/PORTADA\ Y\ PERFIL/istockphoto-1216520737-612x612.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido-seccion header{
+    padding: 30px;
+}
+
+
+.inicio .contenido-seccion .info{
+    padding-bottom: 130px;
+}
+.inicio .contenido-seccion .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+.inicio .contenido-seccion .info h2{
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+
+
+.inicio .contenido-seccion .foto{
+    position: relative;
+}
+.inicio .contenido-seccion .foto img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: 3px solid grey;
+    position: absolute;
+    left: 20%;
+    top: -100px;
+    transform: translateX(-50%);
+}
+
+/* SECCION SOBRE MI */
+.sobremi{
+    background-color:#202020;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.sobremi .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.sobremi .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+/* SECCION CONTACTO */
+.contacto{
+    background-color: #202020;
+    padding: 140px 0 100px 0;
+    color: #e6e6e6;
+    text-align: center;
+}
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+}
+.contacto .contenido-seccion .fila .col h2{
+    color:white;
+}
+
+/*SECCION DE SERIES*/
+.interes{
+    background-color: #202020;
+}
+.interes h4{
+    text-align: center;
+    font-size: 13px
+}
+
+.interes h2{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.gustos{
+    background-color: #202020;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gustos-listas{
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 200px;
+    margin: 20px;
+}
+.gustos-listas img{
+width: 100%;
+}
+
+/*SECCION DE PELICULAS*/
+.peliculas{
+    background-color: #202020;
+}
+.peliculas h4{
+    font-size: 13px;
+}
+.peliculas h2{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.peliculas-gustos{
+    background-color: #202020;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.peliculas-gustos-lista{
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 200px;
+    margin: 20px;
+}
+.peliculas-gustos-lista img{
+    width: 100%;
+}
+.peliculas-gustos-lista h4{
+    text-align: center;
+}
+
+/*SECCION PASATIEMPOS*/
+
+.pasatiempo{
+    background-color: #202020;
+   
+}
+.pasatiempo h2{
+    font-size: 2rem;
+    display: flex;
+    position: center;
+    justify-content: center;
+} 
+.pasatiempo-lista video{
+    border-radius: 5px;
+    border: 3px solid black;
+    margin: 80px;
+}
+.boton-flotante {        /* Esta seccion es para darle estilo al boton flotante */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 10px;
+    text-decoration: none;
+}
